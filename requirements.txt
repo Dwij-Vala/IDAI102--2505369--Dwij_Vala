@@ -1,6 +1,7 @@
 streamlit==1.28.0
 pandas==2.2.3
-pillow==9.5.0
+# allow pip to pick a compatible Pillow wheel for the environment
+pillow>=9.5.0,<11.0.0
 altair==4.2.2
 python-dateutil==2.8.2
-numpy==1.25.3
+# do not pin numpy explicitly — let pip resolve a compatible wheel for the environment
