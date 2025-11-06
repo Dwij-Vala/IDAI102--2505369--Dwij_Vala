@@ -1,22 +1,32 @@
-# ShopImpact 🌱# ShopImpact
+# ShopImpact 🌱
 
+A Streamlit web app for tracking purchases, estimating CO₂ impact, and promoting eco-friendly shopping habits.
 
-
-A Streamlit web app for tracking purchases, estimating CO₂ impact, and promoting eco-friendly shopping habits.A friendly Streamlit app to log purchases, estimate CO₂ impact, earn eco-badges, and reflect mindfully.
-
-
-
-## Features## Quick local run
-
-1. Open PowerShell and cd into the project folder:
+## Features
 
 - 📝 Log purchases with price and category
+- 🌍 Real-time CO₂ impact estimation
+- 📊 Monthly impact dashboard
+- 🏅 Earn eco-badges for sustainable choices
+- 💭 Mindful reflection prompts
+- 🌱 Eco-friendly shopping tips
 
-- 🌍 Real-time CO₂ impact estimation```powershell
+## Quick Start
 
-- 📊 Monthly impact dashboardcd "C:\Users\dwijv\OneDrive\Desktop\Python SA 1"
+1. Install Python requirements:
+```bash
+pip install -r requirements.txt
+```
 
-- 🏅 Earn eco-badges for sustainable choices```
+2. Run the Streamlit app:
+```bash
+streamlit run ShopImpact.py
+```
+
+## Deployment
+
+The app is deployed on Streamlit Cloud and can be accessed at:
+https://idai102-2505369--dwijvala-shopimpactapp.streamlit.app/
 
 - 💚 Get personalized eco-friendly suggestions
 
@@ -120,3 +130,6 @@ Feel free to open issues and pull requests!## Notes about data persistence
 ## Extra tips
 - If deployment fails due to package versions, pin versions in `requirements.txt`, e.g. `streamlit==1.22.0`.
 - To enable automated deploys, enable auto-deploy from the Streamlit app settings (it redeploys on `main` pushes).
+=======
+# IDAI102--2505369--Dwij_Vala
+>>>>>>> eec12a6c448af8c8dc15bb73bbc4a894355b9708
