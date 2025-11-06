@@ -1,0 +1,47 @@
+import turtle
+
+# Create a turtle object
+pen = turtle.Turtle()
+pen.pensize(5) # Set the thickness of the rings
+pen.speed(0) # Set drawing speed to fastest
+
+# Define radius for the rings
+ring_radius = 45
+
+# Draw blue ring
+pen.color("blue")
+pen.penup()
+pen.goto(-110, -25)
+pen.pendown()
+pen.circle(ring_radius)
+
+# Draw black ring
+pen.color("black")
+pen.penup()
+pen.goto(0, -25)
+pen.pendown()
+pen.circle(ring_radius)
+
+# Draw red ring
+pen.color("red")
+pen.penup()
+pen.goto(110, -25)
+pen.pendown()
+pen.circle(ring_radius)
+
+# Draw yellow ring
+pen.color("yellow")
+pen.penup()
+pen.goto(-55, -75)
+pen.pendown()
+pen.circle(ring_radius)
+
+# Draw green ring
+pen.color("green")
+pen.penup()
+pen.goto(55, -75)
+pen.pendown()
+pen.circle(ring_radius)
+
+pen.hideturtle() # Hide the turtle icon
+turtle.done() # Keep the window open until closed manually
