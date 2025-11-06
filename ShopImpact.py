@@ -1,4 +1,5 @@
 import streamlit as st
+
 import pandas as pd
 import os
 from components.purchase_logger import purchase_logger
@@ -9,20 +10,16 @@ from components.badge_display import badge_display
 from components.mindful_reflection import mindful_reflection
 
 st.set_page_config(
-
     page_title="ShopImpact 🌱",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 
 # Accessibility settings panel
 with st.sidebar.expander("Accessibility Settings 🦾", expanded=True):
     theme = st.radio("Theme Mode", ["Dark", "High Contrast", "Light"], index=0, help="Switch between dark, high-contrast, and light modes for best visibility.")
     font_size = st.slider("Font Size", min_value=16, max_value=32, value=22, step=2, help="Adjust text size for readability.")
     dyslexia_font = st.checkbox("Enable Dyslexia-Friendly Font", value=False, help="Use a font designed for easier reading.")
-
-
 
 # Theme palettes
 THEMES = {
@@ -54,7 +51,6 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
-
 # Motivational quotes
 import random
 quotes = [
@@ -68,13 +64,11 @@ quotes = [
 quote = random.choice(quotes)
 st.markdown(f"""
 <div style='background: #1a1f1a; border-radius: 18px; padding: 30px; margin-bottom: 20px; box-shadow: 0 0 20px #3a5a40;'>
-    <h1 style='color: #e9c46a; font-size: 3em; text-align: center; font-family: 'Trebuchet MS', Verdana;'>ShopImpact 🌱</h1>
+    <h1 style='color: #e9c46a; font-size: 3em; text-align: center; font-family: "Trebuchet MS", Verdana;'>ShopImpact 🌱</h1>
     <p style='color: #f4a261; font-size: 1.5em; text-align: center;'>Welcome! Log your purchases, track your CO₂ impact, earn eco-badges 🏅, and reflect mindfully.</p>
     <blockquote style='color: #e9c46a; font-size: 1.2em; text-align: center; margin-top: 18px;'>{quote}</blockquote>
 </div>
 """, unsafe_allow_html=True)
-
-## ...existing code...
 
 # Load or initialize purchase data
 data_path = os.path.join("data", "purchases.csv")

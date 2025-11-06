@@ -1,0 +1,3 @@
+Item,Category,Price,CO2_kg,Timestamp,ProductType,Brand
+Shirt,Clothing,2.0,0.6,2025-11-06 09:10:17.188382,Clothing,Polo
+Jacket,Clothing,2.0,0.6,2025-11-06 09:14:29.067249,Clothing,Monte Carlo
