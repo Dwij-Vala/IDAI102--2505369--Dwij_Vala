@@ -132,4 +132,4 @@ Feel free to open issues and pull requests!## Notes about data persistence
 - To enable automated deploys, enable auto-deploy from the Streamlit app settings (it redeploys on `main` pushes).
 =======
 # IDAI102--2505369--Dwij_Vala
->>>>>>> eec12a6c448af8c8dc15bb73bbc4a894355b9708
+
