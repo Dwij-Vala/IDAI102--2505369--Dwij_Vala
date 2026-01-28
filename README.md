@@ -26,7 +26,7 @@ streamlit run ShopImpact.py
 ## Deployment
 
 The app is deployed on Streamlit Cloud and can be accessed at:
-https://idai102-2505369--dwijvala-shopimpactapp.streamlit.app/
+https://idai102--2505369--dwijvala-uwmb7q9yyjkhwwektgjujq.streamlit.app/
 
 - 💚 Get personalized eco-friendly suggestions
 
@@ -132,4 +132,5 @@ Feel free to open issues and pull requests!## Notes about data persistence
 - To enable automated deploys, enable auto-deploy from the Streamlit app settings (it redeploys on `main` pushes).
 =======
 # IDAI102--2505369--Dwij_Vala
+
 
